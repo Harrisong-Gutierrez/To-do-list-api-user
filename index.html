@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>To Do List</title>
+</head>
+
+<body class="BodyMain">
+    <nav class="BodyMain-nav">
+        <div id="nombre-container" class="BodyMain-nav-text">
+            nombre
+        </div>
+        <a id="Logout-form" class="BodyMain-nav-text" href="./pages/login.html">
+            Logout
+        </a>
+    </nav>
+  
+    <div class="BodyMain-main">
+        <main id="container-to-do-list" class="BodyMain-main-box-light">
+      
+            <header class="BodyMain-header">
+                <div id="header-box" class="BodyMain-header-box-light d-flex BodyMain-header-box-custom">
+                    <h3 class="BodyMain-counter-text">
+                        Todos (<p id="counter" class="BodyMain-counter-text"></p>)
+                    </h3>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="toggle">
+                        <label class="BodyMainDark-form-check-label" id="label_toggle" for="toggle"><i
+                                class="fa-solid fa-moon"></i></label>
+                    </div>
+                </div>
+            </header>
+            <section class="BodyMain-primary-form">
+                <div id="form-container">
+                    <form id="form-id" class="d-flex BodyMain-form">
+                        <input id="input-id" type="text" class="BodyMain-input-form-light" placeholder="Enter todo here">
+                        <button type="button" id="submit-button-id-icon" class="BodyMain-button-light">
+                            Submit
+                            <i id="icon-id" class="fa-solid fa-paper-plane">
+                            </i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            
+            <section class="BodyMain-list-tasks">
+                <div class="BodyMain-list-container" id="list-container">
+                    <ul id="list-to-do" class="list-group"></ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="./assets/js/main.js" type=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/2e6341f303.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

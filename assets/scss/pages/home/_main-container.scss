@@ -1,0 +1,213 @@
+.BodyMain {
+
+    height: auto;
+    justify-content: center;
+    width: 100%;
+
+
+    &-main {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &-header {
+        padding-top: 1px;
+    }
+
+    &-nav {
+        width: 100%;
+        display: flex;
+        height: 60px;
+        justify-content: flex-end;
+        background-color: $boreder-list-color;
+        align-items: center;
+
+        &-text {
+            text-align: center;
+            font-family:$font-family-primary;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $text-black;
+            text-decoration: none;
+            margin-right: 25px;
+        }
+    }
+
+    &-main-box-light {
+        background-color: $background-green-lite;
+        border: 2px;
+        border-radius: 16px;
+        height: 100%;
+        margin-bottom: 100px;
+        margin-top: 10%;
+        width: 730px;
+    }
+
+    &-header-box-light {
+        align-items: center;
+        background-color: $background-green;
+        border-radius: 8px;
+        height: 87px;
+        margin: 30px;
+        padding: 24px;
+        width: 670px;
+    }
+
+    &-counter-text {
+        color: $text-white;
+        display: flex;
+        font-family: inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.4px;
+        margin: 2px;
+    }
+
+    &-input-form-light {
+        background-color: $background-white;
+        border: 2px solid $text-black;
+        border-radius: 8px 0 0 8px;
+        border-width: 2px 0 2px 2px;
+        height: 68px;
+        padding-top: 5px;
+        width: 524px;
+    }
+
+    &-button-light {
+        background-color: $background-yellow;
+        border: 2px;
+        border-radius: 0 8pxradio-task 8px 0;
+        color: $text-white;
+        font-size: 24px;
+        font-weight: 400;
+        height: 68px;
+        width: 146px;
+    }
+
+    &-form {
+        height: 68px;
+    }
+
+    &-primary-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-list-custom {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-list-custom-light {
+        height: 76px;
+        width: auto;
+    }
+
+    &-list-custom-dark {
+        border: 2px solid $background-green;
+        height: 76px;
+        width: auto;
+    }
+
+    &-list-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 33px;
+        margin-top: 33px;
+    }
+
+    &-list-tasks {
+        padding-bottom: 1px;
+    }
+
+
+    &-task-buttons {
+        border-radius: 8px;
+        color: $text-white;
+        height: 52px;
+        margin-right: 10px;
+        padding: 16px, 20px, 16px, 24px;
+        width: 67px;
+    }
+
+    &-button-edit {
+        background-color: $button-edit-color;
+
+    }
+
+    &-button-delete {
+        background-color: $button-trash-color;
+
+    }
+
+    &-icon-edit {
+        font-size: 21px;
+    }
+
+    &-icon-trash {
+        font-size: 21px;
+    }
+
+    &-radio-task {
+        border-radius: 90px;
+        font-size: 20px;
+        font-weight: 900;
+        margin-right: 33px;
+    }
+
+    &-label-task {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        max-width: 433px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    &-input-edit-task {
+        background-color: $text-white;
+        border: 2px solid $text-black;
+        border-radius: 8px 0 0 8px;
+        border-width: 2px 0 2px 2px;
+        height: 52px;
+        padding-top: 8px;
+        width: 418px;
+    }
+
+    &-button-update-task {
+        background-color: $background-yellow;
+        border: 2px;
+        border-radius: 0 8px 8px 0;
+        color: $text-white;
+        font-size: 24px;
+        font-weight: 400;
+        height: 52px;
+        width: 146px;
+    }
+
+    &-form-task {
+        display: flex;
+    }
+
+    &-buttons {
+        align-items: center;
+        display: flex;
+        margin-left: 31rem;
+        position: absolute;
+    }
+
+    &-checkbox {
+        align-items: center;
+        display: flex;
+        padding-left: 24px;
+        width: 45px;
+    }
+
+    &-header-box-custom {
+        justify-content: space-between;
+    }
+}

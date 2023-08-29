@@ -1,0 +1,36 @@
+.Main {
+    &-log-title {
+        color: $text-black;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &-log-box-header {
+        align-items: center;
+        background: $default-color-light-orange;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        height: 68px;
+        height: 41px;
+        justify-content: center;
+        padding: 12px 86px;
+        width: 400px;
+    }
+
+    &-log-container {
+        border: 2px solid $default-color-green;
+        height: 408px;
+        padding: 30px;
+        width: 460px;
+    }
+
+    &-log-button {
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <title>Sign Up</title>
+</head>
+
+<body class="Main">
+    <main class="Main-container">
+        <header class="Main-header">
+            <img class="Main-logo" src="../assets/image/logo-smbs 1.png" alt="">
+            <div class="Main-box-header">
+                <h1 class="Main-title">
+                    Sign Up for Our Newsletter
+                </h1>
+                <p class="Main-paragraph">
+                    Fill out your information below to be signed up
+                    for our informative newsletter.
+                </p>
+            </div>
+        </header>
+        <section class="Main-section-box">
+
+            <form  id="signup-form" class="Main-form-box" action="">
+                <div class="form-group Main-form-items">
+                    <label class="Main-input" for="InputName">
+                    First Name
+                    </label>
+                    <input type="taext" class="form-control Main-form" id="InputName"
+                         placeholder="Enter name">
+                </div>
+                <div class="form-group Main-form-items">
+                    <label class="Main-input" for="InputEmail">
+                        Email address
+                    </label>
+                    <input type="email" class="form-control Main-form" id="InputEmail"
+                       placeholder="Enter email">
+                </div>
+                <div class="form-group Main-form-items">
+                    <label class="Main-input" for="InputPassword">Password</label>
+                    <input type="password" class="form-control Main-form" id="InputPassword"
+                        placeholder="Password">
+                    <span id="emailHelp" class="Main-input">Add me to your mailing list</span>
+                    <div class="Main-check">
+                        <input type="checkbox" class="Main-check-box" id="Check">
+                        <label class="Main-check-text" for="Check">I agree to receive e-mails from your
+                            company and your terms and conditions.</label>
+                    </div>
+                </div>
+                <button type="submit" class="Main-button">Sign Me Up</button>
+                <p class="Main-last-text">
+                    <a class="Main-last-text-custom" href="../pages/login.html">
+                        Already have an account?
+                        <span class="Main-last-text-under-l">
+                            Login here!
+                        </span>
+                    </a>
+                </p>
+            </form>
+
+        </section>
+    </main>
+    <script src="../assets/js/main.js" type=""></script>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/2e6341f303.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

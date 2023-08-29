@@ -1,0 +1,154 @@
+.Main {
+    align-items: center;
+    display: flex;
+    height: 916px;
+    justify-content: center;
+    width: 100%;
+
+    &-section-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-container {
+        border: 2px solid $default-color-green;
+        height: 540px;
+        width: 480px;
+    }
+
+    &-form {
+        font-size: 12px;
+
+        &-box- {
+            width: 400px;
+        }
+
+        &-items {
+            margin-top: 10px;
+        }
+    }
+
+    &-logo {
+        height: 79px;
+        width: 112px;
+    }
+
+    &-header {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-title {
+        color: $default-color-blak;
+        font-family: $font-family-primary;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    &-input {
+        color: $text-black;
+        font-family: $font-family-primary;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 6px;
+    }
+
+    &-paragraph {
+        color: $default-color-blak;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    &-box-header {
+        align-items: center;
+        background: $default-color-light-orange;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        height: 68px;
+        justify-content: center;
+        padding: 12px 86px;
+        width: 400px;
+    }
+
+    &-check {
+        align-items: center;
+        display: flex;
+        margin-bottom: 12px;
+        min-height: 1.5rem;
+
+        &-box {
+            accent-color: $default-color-dark-orange;
+            color: $text-white;
+            height: 13px;
+            margin-right: 10px;
+            width: 13px;
+        }
+    }
+
+    &-button {
+        align-items: flex-start;
+        background-color: $default-color-dark-orange;
+        border: none;
+        border-radius: 4px;
+        color: $text-white;
+        display: inline-flex;
+        font-family: $font-family-primary;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        gap: 10px;
+        line-height: normal;
+        padding: 15px 166.5px;
+        width: 400px;
+    }
+
+    ::placeholder {
+        color: $default-color-green;
+        font-family: $font-family-primary;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &-check-text {
+        color: $text-black;
+        font-family: $font-family-primary;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &-last-text {
+        display: flex;
+        font-family: $font-family-primary;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        justify-content: center;
+        line-height: normal;
+        margin-top: 21px;
+
+        &-custom {
+            color: $default-color-dark-orange;
+            text-decoration-line: none;
+        }
+
+        &-under-l {
+            text-decoration-line: underline;
+        }
+    }
+}

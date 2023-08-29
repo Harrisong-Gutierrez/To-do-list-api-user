@@ -1,0 +1,25 @@
+.BodyMainDark {
+    background-color: $background-body-dark;
+
+    &-form-check-label {
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    &-dark-main-box {
+        background-color: $background-main-box-dark;
+        border: 2px;
+        border-radius: 16px;
+        height: 100%;
+        margin-bottom: 100px;
+        margin-top: 10%;
+        width: 730px;
+        
+    }
+
+    &-header-box {
+        background-color: $dark-header-box;
+    
+    
+    }
+}

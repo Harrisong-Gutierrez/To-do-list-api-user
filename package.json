@@ -1,0 +1,17 @@
+{
+  "name": "to-do-listsmbs-harrisong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch-scss": "node-sass --source-map ./assets/css --watch ./assets/scss -o ./assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+$background-green: rgba(146, 142, 142, 1);
+$background-green-lite: rgba(246, 246, 246, 1);
+$text-white: rgba(255, 255, 255, 1);
+$background-white: rgba(255, 255, 255, 1);
+$text-white: rgba(255, 255, 255, 1);
+$background-yellow: rgba(248, 155, 28, 1);
+$background-list-color: rgba(242, 242, 242, 1);
+$boreder-list-color: rgba(217, 217, 217, 1);
+$button-edit-color: rgba(40, 167, 69, 1);
+$button-trash-color: rgba(220, 53, 69, 1);
+$text-black: rgb(0, 9, 9);
+$background-main-box-dark: rgba(55, 97, 132, 1);
+$background-body-dark: rgba(33, 47, 60, 1);
+$dark-header-box: rgba(28, 48, 65, 1);
+$list-baground-first: rgba(24, 41, 56, 1);
+$list-baground-second: rgba(73, 130, 180, 1);
+$default-color-white: rgba(255, 255, 255, 1);
+$default-color-green: rgba(188, 193, 197, 1);
+$default-color-light-orange: rgba(251, 205, 141, 1);
+$default-color-dark-orange: rgba(248, 155, 28, 1);
+$default-color-blak: rgba(21, 35, 43, 1);
+$font-family-primary: Arial, Helvetica, sans-serif;
+
+// root variables of the list dark and light mode
+
+:root {
+    --background-table-dark-secundary: rgba(73, 130, 180, 1);
+    --background-table-dark-primary:rgba(24, 41, 56, 1);
+    --text-white-list:rgba(255, 255, 255, 1);
+    --orenge-sun:rgb(210,149,31);
+    --background-table-light-secundary: rgba(255, 255, 255, 1);
+    --background-table-light-principal:rgb(242, 242, 242);
+    --text-blak-list:rgb(0,9,9);
+    --purple-moon:rgb(128,21,128);
+}
